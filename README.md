@@ -1,15 +1,6 @@
 # BSN-boundary-sensitive-network.pytorch
 
-This repo holds the pytorch-version codes of paper: "BSN: Boundary Sensitive Network for Temporal Action Proposal Generation", which is accepted in ECCV 2018. You can also find tensorflow-version implementation in [[BSN.tensorflow]](https://github.com/wzmsltw/BSN-boundary-sensitive-network).
-
-[[Arxiv Preprint]](http://arxiv.org/abs/1806.02964)
-
-# Update
-
-* 2018.12.12: Release Pytorch-version BSN
-* 2018.09.26: Previously, we adopted classification results from result files of "Uts at activitynet 2016" for action detection experiments. Recently we found that the classification accuracy of these results are unexpected high. Thus we replace it with classification results of "cuhk & ethz & siat submission to activitynet challenge 2017" and updated all related experiments accordingly. You can find updated papers in my [homepage](wzmsltw.github.io) and in arXiv.
-* 2018.07.09: Codes and feature of BSN
-* 2018.07.02: Repository for BSN
+This repo holds the pytorch-version codes of paper: "BSN: Boundary Sensitive Network for Temporal Action Proposal Generation", which is accepted in ECCV 2018.
 
 
 
@@ -30,7 +21,7 @@ Temporal action proposal generation is an important yet challenging problem, sin
 
 # Prerequisites
 
-These code is  implemented in Pytorch 0.4.1 + Python2 + tensorboardX. Thus please install Pytorch first.
+These code is  implemented in Pytorch 2.2.0 + Python3.11.7 + tensorboardX. Thus please install Pytorch first.
 
 # Code and Data Preparation
 
@@ -39,7 +30,7 @@ These code is  implemented in Pytorch 0.4.1 + Python2 + tensorboardX. Thus pleas
 Clone this repo with git, please use:
 
 ```
-git clone https://github.com/wzmsltw/BSN-boundary-sensitive-network.pytorch.git
+git clone https://github.com/umairahmed786/bsn-boundary-sensitive-network.git
 ```
 
 
@@ -134,7 +125,4 @@ Please cite the following paper if you feel SSN useful to your research
 
 
 ## Contact
-For any question, please file an issue or contact
-```
-Tianwei Lin: wzmsltw@sjtu.edu.cn
-```
+For any questions or inquiries, please contact Umair Ahmed at umairahmedpaki7@gmail.com.
